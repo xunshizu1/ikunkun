@@ -19,6 +19,11 @@ const { title } = Astro.props;
 	<body>
 		<slot />
 	</body>
+	<style>
+        img {
+            margin-left: 400px;
+        }
+    </style>
 </html>
 <style is:global>
 	:root {
@@ -35,8 +40,10 @@ const { title } = Astro.props;
 	html {
 		font-family: system-ui, sans-serif;
 		background: #13151a;
-		background-size: 224px;
-	}
+		background-size: 120%;
+		background-image: url(https://ts1.cn.mm.bing.net/th/id/R-C.eeacf12522da6d6a62cb0468520c8aae?rik=%2bacalFeWbL5fBA&riu=http%3a%2f%2fimg.pconline.com.cn%2fimages%2fupload%2fupc%2ftx%2fphotoblog%2f1409%2f01%2fc2%2f38117363_38117363_1409547661765.jpg&ehk=Rli3uxVYc8kKhVXdITaRsmkiA79dQuGSlarn%2fvmwTYY%3d&risl=&pid=ImgRaw&r=0);
+		background-repeat: no-repeat}
+		
 	code {
 		font-family:
 			Menlo,
